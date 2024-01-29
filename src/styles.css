@@ -1,0 +1,443 @@
+html {}
+
+body {
+    background: #FFF8F0;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+    border: 0;
+    padding: 0;
+}
+
+.name {
+    font-family: "Inter", sans-serif;
+    color: #291854;
+    padding: 16px 0px 0px 0px;
+}
+
+h1 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #190D37;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+#yellow-line {
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.headline {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #331E6A;
+}
+
+#hero-section {
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+#hero-writeup {
+    width: 50%;
+    padding: 32px 20px 32px 20px;
+}
+
+#contact {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #000000;
+}
+
+#phone {
+    width: 50%;
+}
+
+#email {
+    width: 50%;
+    text-align: right;
+    padding: 0px 20px 0px 0px;
+}
+
+#hero-image-wrapper {
+    width: 50%;
+}
+
+#hero-image {
+    width: 100%;
+}
+
+#contact-button {
+    width: 138px;
+    height: 44px;
+    top: 456px;
+    left: 190px;
+    border-radius: 4px;
+    background-color: #2F2F2F;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+#contact-button:hover {
+    cursor: pointer;
+    color: #2F2F2F;
+    background-color: #FFFFFF;
+}
+
+#pricing-section {
+    max-width: 1060px;
+    margin: 0 auto;
+
+}
+
+#pricing-boxes {
+    display: flex;
+}
+
+.pricing-box {
+    width: 33.33%;
+}
+
+.pricing-card {
+    background-color: #FFFFFF;
+    margin: 0 20px 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+}
+
+#middle-box {
+    background-color: #FFD748;
+}
+
+#middle-box .service-job {
+    color: #000000;
+}
+
+.service-contact-me {
+    width: 100%;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #2F2F2F;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    height: 44px;
+}
+
+.service-contact-me:hover {
+    color: #FFFFFF;
+    background-color: #2F2F2F;
+    cursor: pointer;
+}
+
+.service-job {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #2858FF;
+}
+
+.service-cost {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000000;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.per-page {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8A8A8A;
+}
+
+.service-description {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #8B8B8B;
+}
+
+.service-list {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+#middle-box .service-list {
+    color: #000000BF;
+}
+
+#middle-box .service-description {
+    color: #00000080;
+}
+
+#middle-box .per-page {
+    color: #00000080;
+}
+
+#middle-box .service-contact-me:hover {
+    color: #2F2F2F;
+    background-color: #FFFFFF;
+}
+
+#middle-box .service-contact-me {
+    color: #FFFFFF;
+    background-color: #2F2F2F;
+}
+
+.overheading {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #2858FF;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+
+.section-title {
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000000;
+    text-align: center;
+    max-width: 700px;
+    margin: 8px auto;
+}
+
+.section-subtitle {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #190D37;
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+
+.all-projects {
+    display: flex;
+    max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+#pr-1 {
+    background-color: #19ACFF;
+}
+
+#pr-2 {
+    background-color: #FFE819;
+}
+
+#pr-3 {
+    background-color: #FF1919;
+}
+
+.logo-text {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 44px;
+}
+
+#pr-2 .logo-text {
+    color: #000000;
+}
+
+.project-writeup {
+    width: 85%;
+    margin-left: 20px;
+}
+
+.project-title {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #291854;
+}
+
+.project-description {
+    margin: 8px auto;
+}
+
+.project-link-text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #6A87A3;
+}
+
+#what-i-do-content {
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+#front-end {
+    width: 33.33%;
+}
+
+#back-end {
+    width: 33.33%;
+}
+
+#interface {
+    width: 33.33%;
+}
+
+.dev-card {
+    background-color: #FFFFFF;
+    margin: 0 20px 0 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+}
+
+.what-i-do-heading {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.what-i-do-description {
+    text-align: center;
+}
+
+#blue-blob-img {
+    position: relative;
+    width: 321.69px;
+    height: 300px;
+    left: 117px;
+    bottom: 507px;
+    z-index: -1;
+    margin-bottom: -407px;
+}
+
+#red-blob-img {
+    position: relative;
+    width: 321.69px;
+    height: 300px;
+    left: -117px;
+    bottom: 221px;
+    z-index: -1;
+    margin-bottom: -221px;
+}
+
+.questions-hidden {
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+.questions {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.answers {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6A87A3;
+    margin-bottom: 16px;
+}
+
+details>summary {
+
+    list-style: none;
+}
+
+summary::-webkit-details-marker {
+    display: none
+}
+
+summary:hover {
+    cursor: pointer;
+}
+
+summary::after {
+    content: "\039b";
+    float: right;
+}
+
+details[open] summary:after {
+    content: 'V';
+    float: right;
+}
+
+#footer {
+}
+
+#footer-text {
+    width: 100%;
+    background-color: #000000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
